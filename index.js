@@ -7,7 +7,9 @@ return document.querySelector('#nested .target');
 }
 
 
-document.getElementById('app').querySelectorAll('ul.ranked-list')
+var ranks = document.getElementById('app').querySelectorAll('ul.ranked-list li')
 function increaseRankBy(n) {
-  for (let i = 0; )
+  for (let i = 0; i < ranks.length; i++ ) {
+    ranks[i].innerHTML + 1
+  }
 }
