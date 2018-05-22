@@ -7,7 +7,7 @@ return document.querySelector('#nested .target');
 }
 
 
-document.querySelector
+document.getElementById()
 function increaseRankBy(n) {
   for (let i = 0; )
 }
