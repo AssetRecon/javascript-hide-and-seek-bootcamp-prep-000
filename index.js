@@ -19,7 +19,11 @@ function increaseRankBy(n) {
 var deep = document.getElementById('nested').querySelectorAll('div')
 
 function deepestChild() {
-  
+  for (let i = 0; i < deep.length; i++) {
+    if (deep[i] !== undefined) {
+      
+    }
+  }
 }
 
 function find(array, criteriaFn) {
