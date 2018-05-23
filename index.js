@@ -20,7 +20,7 @@ var deep = document.getElementById('grand-node').querySelectorAll('div')
 
 function deepestChild() {
   for (let i = 0; i < deep.length; i++) {
-    if (deep[i] !== undefined) {
+    if (querySelector('div').innerHTML = "boo") {
       return deep[i]
     }
   }
