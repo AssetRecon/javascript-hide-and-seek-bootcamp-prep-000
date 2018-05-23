@@ -16,7 +16,7 @@ function increaseRankBy(n) {
 
 
 
-var deep = document.
+var deep = document.getElementId()
 
 function deepestChild() {
   
