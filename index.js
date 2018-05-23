@@ -20,7 +20,7 @@ var deepest = document.querySelectorAll('#grand-node div')
 
 function deepestChild() {
   for (let i = 0; i < deepest.length; i++) {
-   if (deepest[i].innerHTML === "boo!") {
+   if (deepest[i] !== undefined) {
      return deepest[i]
      // return deepest[deepest.length-1]
     }
