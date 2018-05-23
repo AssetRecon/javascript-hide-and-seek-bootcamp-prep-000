@@ -16,12 +16,12 @@ function increaseRankBy(n) {
 
 
 
-var deep = document.getElementById('grand-node').querySelectorAll('div')
+var deepest = document.getElementById('grand-node').querySelectorAll('div')
 
 function deepestChild() {
   for (let i = 0; i < deep.length; i++) {
-   if (deep[i].innerHTML === "boo!") {
-     // return deep[deep.length-1]
+   if (deepest[i].innerHTML === "boo!") {
+     // return deepest[deepest.length-1]
     }
   }
 }
